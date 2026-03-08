@@ -15,7 +15,6 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
-	// Ponemos valores iniciales por defecto para evitar el crash
 	FVector PosicionInicial = FVector::ZeroVector;
 	FVector DestinoActual = FVector::ZeroVector;
 	int32 PasoActual = 0;
